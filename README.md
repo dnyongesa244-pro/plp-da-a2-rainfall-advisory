@@ -1,0 +1,3 @@
+- This project cleans Machakos station readings and uses NumPy to analyse monthly rainfall across five Kenyan counties and identify data-led planting windows.
+- Option 1: Run `jupyter notebook rainfall_analysis.ipynb` from this directory; option 2: open [Google Colab](https://colab.research.google.com/), choose **File > Upload notebook**, upload `rainfall_analysis.ipynb`, and run all cells. The notebook writes `rainfall_summary.csv` in the working directory; in Colab, download it from the Files panel.
+- The analysis recommends April-May for Nairobi, Nakuru, Kisumu, and Mombasa, and November-December for Machakos; the April and September Machakos values were imputed, so verify the guidance before sending SMS advice.
